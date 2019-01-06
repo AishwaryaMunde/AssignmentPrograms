@@ -1,0 +1,58 @@
+package com.bridgelabz;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class RegisterFilter implements Filter
+{
+	FilterConfig config ;
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+			throws IOException, ServletException
+	{
+		int count=0;
+	    String query = "insert into Userdata(FirstName,LastName,Emailid,Username,Password)values(?,?,?,?,?)";
+		HttpServletRequest req = (HttpServletRequest)request;
+		HttpServletResponse res = (HttpServletResponse)response;
+		
+		Connection con;
+		try 
+		{
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/login","admin","admin");
+			PreparedStatement statement = connection.prepareStatement(query); 
+			String firstname = request.getParameter("firstname");
+			String lastname = request.getParameter("lastname");
+			String emailid = request.getParameter("emailid");
+			String uname = request.getParameter("uname");
+			String passwd = request.getParameter("password");
+			statement.setString(1,firstname);
+			statement.setString(2,lastname);
+			statement.setString(3,emailid);
+			statement.setString(4,uname);
+			statement.setString(5,passwd);
+			count = statement.executeUpdate();
+			System.out.println(count + " rows affected");
+			statement.close();
+			connection.close();
+			res.sendRedirect("login.jsp");
+		} 
+		catch (Exception e)
+		{
+			e.printStackTrace();
+		}
+		chain.doFilter(request, response);
+	}
+	
+}

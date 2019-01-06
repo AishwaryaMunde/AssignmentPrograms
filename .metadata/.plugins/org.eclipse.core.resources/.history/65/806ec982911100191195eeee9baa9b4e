@@ -1,0 +1,60 @@
+package com.bridgelabz;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.Enumeration;
+
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class RegisterFilter implements Filter
+{
+	FilterConfig config ;
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+			throws IOException, ServletException
+	{
+		int count=0;
+	    String query = "insert into Userdata(FirstName,LastName,Emailid,Username,Password)values(?,?,?,?,?)";
+		HttpServletRequest req = (HttpServletRequest)request;
+		HttpServletResponse res = (HttpServletResponse)response;
+		//Enumeration<String> paramName = request.getParameterNames();
+		Connection con;
+		try 
+		{
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/login","admin","admin");
+			PreparedStatement statement = connection.prepareStatement(query); 
+			String firstname = req.getParameter("firstname");
+			String lastname = req.getParameter("lastname");
+			String emailid = req.getParameter("emailid");
+			String uname = req.getParameter("uname");
+			String passwd = req.getParameter("password");
+			System.out.println("In Filter");
+			statement.setString(1,firstname);
+			statement.setString(2,lastname);
+			statement.setString(3,emailid);
+			statement.setString(4,uname);
+			statement.setString(5,passwd);
+			count = statement.executeUpdate();
+			System.out.println(count + " rows affected");
+			statement.close();
+			connection.close();
+			res.sendRedirect("index.jsp");
+		} 
+		catch (Exception e)
+		{
+			e.printStackTrace();
+		}
+		chain.doFilter(request, response);
+	}
+	
+}

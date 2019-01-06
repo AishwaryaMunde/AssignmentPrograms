@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<style>
+         body {
+            background-image: url("https://previews.123rf.com/images/christitze/christitze1611/christitze161121058/65369777-admin-gold-text-on-black-background-3d-rendered-royalty-free-stock-picture-this-image-can-be-used-fo.jpg");
+         }
+</style>
+
+<body>
+<h1 style="color:Black;">Welcome ${uname}</h1>
+</body>
+</html>

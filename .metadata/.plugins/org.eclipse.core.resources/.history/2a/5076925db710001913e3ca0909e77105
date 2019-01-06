@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<style>
+         body {
+            background-image: url("https://www.greenlightintel.com/wp-content/uploads/2017/12/blockchain-worldwide.jpg");
+         }
+         </style>
+
+<body style=margin-top:8em;margin-left:30em;>
+<%
+		response.setHeader("Cache-Control","no-cache , no-store , must-revalidate");//for back button after logout	
+		if(session.getAttribute("uname")==null)
+		{
+			response.sendRedirect("index.jsp");
+		}	
+	%>
+
+</body>
+<form action="logout">
+	<table>	
+		<h1 style="color:Black;">Welcome ${uname}</h1>
+		<td><input type="submit" value = "Logout" style = " width: 18em;  height: 2em;"></td>	
+	</table>
+	</form>
+</html>

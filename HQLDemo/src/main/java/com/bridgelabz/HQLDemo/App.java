@@ -24,11 +24,11 @@ public class App
     	int marks = 25;
     	
     	//Query is used when we work with HQL if we want to work with sql use SQLQuery 
-    	//Query query = session.createQuery("select sum(Marks) from Student where Marks > :marks");  // :marks means prepared statement
+    	Query query = session.createQuery("select sum(Marks) from Student where Marks > :marks");  // :marks means prepared statement
     																	//as like jdbc we dont need to write here whole statement
-    	//query.setParameter("marks",marks);
-    	//Object stud = (Object) query.uniqueResult();
-    	//System.out.println(stud);
+    	query.setParameter("marks",marks);
+    	Object stud = (Object) query.uniqueResult();
+    	System.out.println(stud);
     	
     	
 //    	SQLQuery query = session.createSQLQuery("select * from Student");

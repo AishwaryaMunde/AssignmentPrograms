@@ -14,11 +14,16 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.bridgelabz.pojo.Userdata;
 
+@Controller
 public class UserRegistration extends HttpServlet 
 {
+	@RequestMapping("/regLogin")
 	public void doPost(HttpServletRequest request , HttpServletResponse response) throws ServletException, IOException
 	{
 		Configuration config = new Configuration().configure().addAnnotatedClass(Userdata.class);

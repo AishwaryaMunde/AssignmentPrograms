@@ -1,5 +1,6 @@
 package com.bridgelabz.dao;
 
+import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -19,15 +20,21 @@ public class LoginVerify
     	SessionFactory factory = config.buildSessionFactory(registry);
     	Session session = factory.openSession(); //open session method give the obj of session
     	Transaction transaction = session.beginTransaction();
-    	
+    	boolean userFound=false;
     	Query query = session.createQuery("from Userdata where UserName=:uname and Password=:password");
     																	
     	query.setParameter("uname",Username);
     	query.setParameter("password",Password);
+    	List list = query.list();
+    	if(list != null && list.size() > 0)
+    	{
+    		System.out.println(list);
+    		userFound=true;
+    	}
     	//query.setParameter("password",Password);
-    	Userdata user = (Userdata) query.uniqueResult();     	
-    	System.out.println(user);	 
+//    	Userdata user = (Userdata) query.uniqueResult();     	
+//    	System.out.println(user);	 
     	transaction.commit();
-		return true;
+		return userFound;
     }
 }

@@ -1,7 +1,6 @@
 package com.bridgelabz;
 
 import java.io.IOException;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -21,10 +20,8 @@ public class LoginToWelcome extends HttpServlet
 		String userName = request.getParameter("userName");
 		String userPass = request.getParameter("userPass");
 		//System.out.println("data "+userName+ "  "+userPass);
-		ModelAndView view = new ModelAndView();
     	if(LoginVerify.databaseConfiguration(userName, userPass))
-    	{	
-    
+    	{	    
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/Welcome.jsp");
 			dispatcher.forward(request, response);		
     	}

@@ -8,33 +8,38 @@ import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
-import com.bridgelabz.pojo.Userdata;
+import com.bridgelabz.model.Userdata;
 
-public class LoginVerify 
+public class UserDatabase
 {
-    public static boolean databaseConfiguration(String Username,String Password)
-    {    	
-    	System.out.println(Username+" "+Password);
-    	Configuration config = new Configuration().configure().addAnnotatedClass(Userdata.class);
+	public boolean userVerify(String userName , String Password)
+	{
+		boolean userFound=false;
+		Configuration config = new Configuration().configure().addAnnotatedClass(Userdata.class);
     	ServiceRegistry registry = new ServiceRegistryBuilder().applySettings(config.getProperties()).buildServiceRegistry(); 
     	SessionFactory factory = config.buildSessionFactory(registry);
     	Session session = factory.openSession(); //open session method give the obj of session
     	Transaction transaction = session.beginTransaction();
-    	boolean userFound=false;
     	Query query = session.createQuery("from Userdata where UserName=:uname and Password=:password");
-    																	
-    	query.setParameter("uname",Username);
+    	query.setParameter("uname",userName);
     	query.setParameter("password",Password);
     	List list = query.list();
-    	if(list != null && list.size() > 0)
+    	if(list != null && list.size()>0)
     	{
     		System.out.println(list);
-    		userFound=true;
+    		userFound = true;
     	}
-    	//query.setParameter("password",Password);
-//    	Userdata user = (Userdata) query.uniqueResult();     	
-//    	System.out.println(user);	 
     	transaction.commit();
 		return userFound;
-    }
+	}
+	public void save(Userdata userData)
+	{
+		Configuration config = new Configuration().configure().addAnnotatedClass(Userdata.class);
+    	ServiceRegistry registry = new ServiceRegistryBuilder().applySettings(config.getProperties()).buildServiceRegistry(); 
+    	SessionFactory factory = config.buildSessionFactory(registry);
+    	Session session = factory.openSession(); //open session method give the obj of session
+    	Transaction transaction = session.beginTransaction();
+    	session.save(userData);
+    	transaction.commit();
+	}
 }

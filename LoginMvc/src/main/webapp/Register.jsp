@@ -4,7 +4,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
 </head>
 <h1 style="color:Purple;">Registration Page</h1>
 <body style=margin-top:7em;margin-left:16em;>
@@ -41,7 +40,7 @@
 		<td></td>
 				<td><input type="submit" value="Register" style = " width: 15em;  height: 2em;"></td>
 			</tr>
-	</table>	
-</form>
-</body>
+			</table>
+			</form>
+			</body>
 </html>

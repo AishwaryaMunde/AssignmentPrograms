@@ -1,18 +1,26 @@
-package com.bridgelabz.pojo;
+package com.bridgelabz.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="Userdata")
 public class Userdata 
 {
-	private String FirstName;
-	private String LastName;
+	@Column
+	String FirstName;
+	@Column
+	String LastName;
+	@Column
+	String MobileNo;
+	@Column
+	String EmailId;
 	@Id
-	private String MobileNo; 
-	private String EmailId;
-	private String UserName;
-	private String Password;
+	String UserName;
+	@Column
+	String Password;
 	public String getFirstName() {
 		return FirstName;
 	}
@@ -51,7 +59,7 @@ public class Userdata
 	}
 	@Override
 	public String toString() {
-		return "Userdata [FirstName=" + FirstName + ", LastName=" + LastName + ", MobileNo=" + MobileNo + ", EmailId="
+		return "User [FirstName=" + FirstName + ", LastName=" + LastName + ", MobileNo=" + MobileNo + ", EmailId="
 				+ EmailId + ", UserName=" + UserName + ", Password=" + Password + "]";
 	}
 }

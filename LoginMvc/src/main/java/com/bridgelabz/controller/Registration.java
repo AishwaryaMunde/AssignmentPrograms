@@ -32,6 +32,7 @@ public class Registration
 		userData.setUserName(userName);
 		userData.setPassword(password);
 		database.save(userData);
+		System.out.println("Registered successfully");
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
 		dispatcher.forward(request, response);
 	}

@@ -15,7 +15,6 @@ public class LoginVerify
 	@RequestMapping("/login")
 	public ModelAndView checkUser(HttpServletRequest request , HttpServletResponse response) throws ServletException, IOException
 	{		
-		System.out.println("in login");
 		String userName = request.getParameter("userName");
 		String password = request.getParameter("userPass");
 		System.out.println(userName+" "+password);

@@ -8,5 +8,6 @@
 </head>
 <body>
 	<h2>Welcome User</h2>
+	<input type="submit" value="Logout">
 </body>
 </html>

@@ -5,8 +5,15 @@
 <head>
 <meta charset="UTF-8">
 </head>
+<style>
+         body {
+            background-image: url("https://c8.alamy.com/comp/F3MGX8/blury-nature-background-F3MGX8.jpg");
+			background-repeat: no-repeat;  
+			background-size: 1300px 730px;       
+         }
+</style>
 <h1 style="color:Purple;">Registration Page</h1>
-<body style=margin-top:7em;margin-left:16em;>
+<body style=margin-top:5em;margin-left:23em;>
 
 <form action="regLogin" method="post">
 	<table>

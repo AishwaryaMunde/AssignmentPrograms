@@ -1,24 +1,24 @@
 package com.bridgelabz.controller;
 
 import java.io.IOException;
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-//import org.springframework.web.servlet.ModelAndView;
-import com.bridgelabz.dao.UserDatabase;
+import org.springframework.web.servlet.ModelAndView;
+import com.bridgelabz.dao.IUserDatabase;
 import com.bridgelabz.model.Userdata;
 
 @Controller
 public class Registration 
 {
 	@RequestMapping("/regLogin")
-	public void registration(HttpServletRequest request , HttpServletResponse response) throws ServletException, IOException
+	public ModelAndView registration(HttpServletRequest request , HttpServletResponse response) throws ServletException, IOException
 	{	
 		Userdata userData = new Userdata();
-		UserDatabase database = new UserDatabase();
+		IUserDatabase database = new IUserDatabase();
+		ModelAndView view = new ModelAndView();
 		String firstName = request.getParameter("firstname");
 		String lastName = request.getParameter("lastname");
 		String mobileno = request.getParameter("mobno");
@@ -33,7 +33,8 @@ public class Registration
 		userData.setPassword(password);
 		database.save(userData);
 		System.out.println("Registered successfully");
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
-		dispatcher.forward(request, response);
+		view.setViewName("index.jsp");
+		return view;
+		
 	}
 }

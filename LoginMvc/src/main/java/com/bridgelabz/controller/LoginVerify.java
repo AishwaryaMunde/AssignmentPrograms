@@ -4,10 +4,12 @@ import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
-import com.bridgelabz.dao.UserDatabase;
+import com.bridgelabz.dao.IUserDatabase;
 
 @Controller
 public class LoginVerify 
@@ -18,10 +20,12 @@ public class LoginVerify
 		String userName = request.getParameter("userName");
 		String password = request.getParameter("userPass");
 		System.out.println(userName+" "+password);
-		UserDatabase user = new UserDatabase();
+		IUserDatabase user = new IUserDatabase();
 		ModelAndView view = new ModelAndView();
 		if(user.userVerify(userName,password))
 		{
+			HttpSession session = request.getSession();
+			session.setAttribute("userName",userName);
 			view.setViewName("welcome.jsp");
 		}
 		else

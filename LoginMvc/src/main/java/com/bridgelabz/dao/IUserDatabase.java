@@ -10,7 +10,7 @@ import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
 import com.bridgelabz.model.Userdata;
 
-public class UserDatabase
+public class IUserDatabase implements UserDatabseImpl
 {
 	public boolean userVerify(String userName , String Password)
 	{

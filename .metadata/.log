@@ -9257,3 +9257,1916 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://do
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 11:02:25.644
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:20:05.653
+!MESSAGE Launch configuration MD5 references closed project LoginMvc
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration MD5 references closed project LoginMvc
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-01-18 18:20:05.653
+!MESSAGE Launch configuration MD5 references closed project LoginMvc
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:20:05.654
+!MESSAGE Launch configuration MD5 references closed project LoginMvc
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration MD5 references closed project LoginMvc
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-01-18 18:20:05.654
+!MESSAGE Launch configuration MD5 references closed project LoginMvc
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:20:05.657
+!MESSAGE Launch configuration MD5 references closed project LoginMvc
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration MD5 references closed project LoginMvc
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-01-18 18:20:05.657
+!MESSAGE Launch configuration MD5 references closed project LoginMvc
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:20:05.658
+!MESSAGE Launch configuration Encryption references closed project LoginMvc
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Encryption references closed project LoginMvc
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:352)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-01-18 18:20:05.658
+!MESSAGE Launch configuration Encryption references closed project LoginMvc
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:20:05.659
+!MESSAGE Launch configuration Encryption references closed project LoginMvc
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Encryption references closed project LoginMvc
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:528)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:416)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:353)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-01-18 18:20:05.659
+!MESSAGE Launch configuration Encryption references closed project LoginMvc
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:20:05.661
+!MESSAGE Launch configuration Encryption references closed project LoginMvc
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Encryption references closed project LoginMvc
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1710)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2151)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:381)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:354)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:378)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:777)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:921)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2019-01-18 18:20:05.661
+!MESSAGE Launch configuration Encryption references closed project LoginMvc
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:27:11.534
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:27:11.536
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:27:12.598
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:31:12.328
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:31:12.329
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:31:12.349
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:31:12.381
+!MESSAGE Could not download sources for com.sun.jersey:jersey-servlet:1.20-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.sun.jersey:jersey-servlet:jar:sources:1.20-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.sun.jersey:jersey-servlet:jar:sources:1.20-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:12.381
+!MESSAGE Could not resolve artifact com.sun.jersey:jersey-servlet:jar:sources:1.20-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:12.381
+!MESSAGE Missing com.sun.jersey:jersey-servlet:jar:sources:1.20-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:31:12.384
+!MESSAGE Could not download javadoc for com.sun.jersey:jersey-servlet:1.20-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.sun.jersey:jersey-servlet:jar:javadoc:1.20-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.sun.jersey:jersey-servlet:jar:javadoc:1.20-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:12.384
+!MESSAGE Could not resolve artifact com.sun.jersey:jersey-servlet:jar:javadoc:1.20-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:12.384
+!MESSAGE Missing com.sun.jersey:jersey-servlet:jar:javadoc:1.20-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:31:12.441
+!MESSAGE Could not download sources for com.sun.jersey:jersey-json:1.20-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.sun.jersey:jersey-json:jar:sources:1.20-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.sun.jersey:jersey-json:jar:sources:1.20-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:12.441
+!MESSAGE Could not resolve artifact com.sun.jersey:jersey-json:jar:sources:1.20-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:12.441
+!MESSAGE Missing com.sun.jersey:jersey-json:jar:sources:1.20-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:31:12.443
+!MESSAGE Could not download javadoc for com.sun.jersey:jersey-json:1.20-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.sun.jersey:jersey-json:jar:javadoc:1.20-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.sun.jersey:jersey-json:jar:javadoc:1.20-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:12.443
+!MESSAGE Could not resolve artifact com.sun.jersey:jersey-json:jar:javadoc:1.20-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:12.443
+!MESSAGE Missing com.sun.jersey:jersey-json:jar:javadoc:1.20-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:31:14.612
+!MESSAGE Could not download sources for com.sun.jersey:jersey-client:1.20-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.sun.jersey:jersey-client:jar:sources:1.20-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.sun.jersey:jersey-client:jar:sources:1.20-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:14.613
+!MESSAGE Could not resolve artifact com.sun.jersey:jersey-client:jar:sources:1.20-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:14.613
+!MESSAGE Missing com.sun.jersey:jersey-client:jar:sources:1.20-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:31:14.619
+!MESSAGE Could not download javadoc for com.sun.jersey:jersey-client:1.20-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.sun.jersey:jersey-client:jar:javadoc:1.20-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.sun.jersey:jersey-client:jar:javadoc:1.20-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:14.619
+!MESSAGE Could not resolve artifact com.sun.jersey:jersey-client:jar:javadoc:1.20-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:14.619
+!MESSAGE Missing com.sun.jersey:jersey-client:jar:javadoc:1.20-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:31:14.797
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:31:14.798
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:31:14.801
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:31:15.213
+!MESSAGE Could not download javadoc for org.glassfish.extras:glassfish-embedded-web:3.1.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.glassfish.extras:glassfish-embedded-web:jar:javadoc:3.1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.glassfish.extras:glassfish-embedded-web:jar:javadoc:3.1.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:15.213
+!MESSAGE Could not resolve artifact org.glassfish.extras:glassfish-embedded-web:jar:javadoc:3.1.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:31:15.213
+!MESSAGE Missing org.glassfish.extras:glassfish-embedded-web:jar:javadoc:3.1.1
+
+!ENTRY org.eclipse.wst.common.project.facet.ui 4 0 2019-01-18 18:46:52.043
+!MESSAGE Could not load icon "icons/obj16/new_webserv_wiz.gif" from plugin org.jboss.tools.ws.jaxws.ui.
+
+!ENTRY org.eclipse.jst.jee 4 0 2019-01-18 18:49:04.751
+!MESSAGE src/main/java/com/bridgelabz/RestDemo [in RestDemo] is not on its project's build path
+!STACK 1
+Java Model Exception: Java Model Status [src/main/java/com/bridgelabz/RestDemo [in RestDemo] is not on its project's build path]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:516)
+	at org.eclipse.jdt.internal.core.PackageFragment.getKind(PackageFragment.java:375)
+	at org.eclipse.jdt.internal.core.PackageFragment.getCompilationUnits(PackageFragment.java:298)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:511)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:527)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProjectChildren(AbstractAnnotationModelProvider.java:501)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProject(AbstractAnnotationModelProvider.java:492)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:457)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:448)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1739)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1727)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1560)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1536)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2257)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2147)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:290)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:153)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:321)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CreatePackageChange.perform(CreatePackageChange.java:59)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:185)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:112)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:566)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.access$2(AbstractAnnotationHover.java:543)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$5.widgetSelected(AbstractAnnotationHover.java:537)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1412)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1526)
+	at org.eclipse.swt.widgets.Link.gtk_button_release_event(Link.java:387)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1946)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6298)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5880)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:3969)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1385)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1581)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4470)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2019-01-18 18:49:04.752
+!MESSAGE src/main/java/com/bridgelabz/RestDemo [in RestDemo] is not on its project's build path
+
+!ENTRY org.eclipse.jst.jee 4 0 2019-01-18 18:49:04.753
+!MESSAGE src/main/java/com/bridgelabz/RestDemo [in RestDemo] is not on its project's build path
+!STACK 1
+Java Model Exception: Java Model Status [src/main/java/com/bridgelabz/RestDemo [in RestDemo] is not on its project's build path]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:516)
+	at org.eclipse.jdt.internal.core.PackageFragment.getKind(PackageFragment.java:375)
+	at org.eclipse.jdt.internal.core.PackageFragment.getCompilationUnits(PackageFragment.java:298)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:511)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:527)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProjectChildren(AbstractAnnotationModelProvider.java:501)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProject(AbstractAnnotationModelProvider.java:492)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:457)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:448)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1739)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1727)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1560)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1536)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2257)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2147)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:290)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:153)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:321)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CreatePackageChange.perform(CreatePackageChange.java:59)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:185)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:112)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:566)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.access$2(AbstractAnnotationHover.java:543)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$5.widgetSelected(AbstractAnnotationHover.java:537)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1412)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1526)
+	at org.eclipse.swt.widgets.Link.gtk_button_release_event(Link.java:387)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1946)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6298)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5880)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:3969)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1385)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1581)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4470)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2019-01-18 18:49:04.753
+!MESSAGE src/main/java/com/bridgelabz/RestDemo [in RestDemo] is not on its project's build path
+
+!ENTRY org.eclipse.jst.jee 4 0 2019-01-18 18:49:04.753
+!MESSAGE src/main/java/com/bridgelabz/RestDemo [in RestDemo] is not on its project's build path
+!STACK 1
+Java Model Exception: Java Model Status [src/main/java/com/bridgelabz/RestDemo [in RestDemo] is not on its project's build path]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:516)
+	at org.eclipse.jdt.internal.core.PackageFragment.getKind(PackageFragment.java:375)
+	at org.eclipse.jdt.internal.core.PackageFragment.getCompilationUnits(PackageFragment.java:298)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:511)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.recursevilyProcessPackages(AbstractAnnotationModelProvider.java:527)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProjectChildren(AbstractAnnotationModelProvider.java:501)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.processChangedProject(AbstractAnnotationModelProvider.java:492)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.internalPostChange(AbstractAnnotationModelProvider.java:457)
+	at org.eclipse.jst.jee.model.internal.common.AbstractAnnotationModelProvider.elementChanged(AbstractAnnotationModelProvider.java:448)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1739)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1727)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1560)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1536)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2257)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2147)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:290)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:153)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2308)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:321)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CreatePackageChange.perform(CreatePackageChange.java:59)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:185)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:112)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:566)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.access$2(AbstractAnnotationHover.java:543)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$5.widgetSelected(AbstractAnnotationHover.java:537)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1412)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1526)
+	at org.eclipse.swt.widgets.Link.gtk_button_release_event(Link.java:387)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1946)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6298)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5880)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:3969)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1385)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1581)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4470)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2019-01-18 18:49:04.754
+!MESSAGE src/main/java/com/bridgelabz/RestDemo [in RestDemo] is not on its project's build path
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-01-18 18:49:04.762
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [com.bridgelabz.RestDemo [in src/main/java/com/bridgelabz/RestDemo [in RestDemo]] does not exist]
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:180)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:436)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:95)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
+	at org.eclipse.jdt.internal.core.JavaModel.runOperation(JavaModel.java:301)
+	at org.eclipse.jdt.internal.core.JavaModel.move(JavaModel.java:260)
+	at org.eclipse.jdt.internal.core.CompilationUnit.move(CompilationUnit.java:1172)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.MoveCompilationUnitChange.doPerformReorg(MoveCompilationUnitChange.java:90)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CompilationUnitReorgChange.perform(CompilationUnitReorgChange.java:68)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:185)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.apply(ChangeCorrectionProposal.java:112)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.apply(AbstractAnnotationHover.java:566)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.access$2(AbstractAnnotationHover.java:543)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl$5.widgetSelected(AbstractAnnotationHover.java:537)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5663)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1386)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1412)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1526)
+	at org.eclipse.swt.widgets.Link.gtk_button_release_event(Link.java:387)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:1946)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6298)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5880)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:3969)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1385)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1581)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4470)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-01-18 18:49:04.763
+!MESSAGE com.bridgelabz.RestDemo [in src/main/java/com/bridgelabz/RestDemo [in RestDemo]] does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:51:16.570
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:51:16.571
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:51:16.573
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:51:21.967
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:51:21.967
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:51:21.970
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:53:22.350
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:53:22.351
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:53:22.352
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:53:23.019
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:53:23.020
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:53:23.021
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:53:43.493
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:53:43.494
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:53:43.495
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:53:59.539
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:53:59.539
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:55:03.932
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:55:03.933
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:55:04.360
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:55:04.361
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:55:04.449
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 18:55:04.450
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:56:30.317
+!MESSAGE Could not download javadoc for com.sun.xml.bind:jaxb-impl:2.2.3-1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.sun.xml.bind:jaxb-impl:jar:javadoc:2.2.3-1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.sun.xml.bind:jaxb-impl:jar:javadoc:2.2.3-1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:30.317
+!MESSAGE Could not resolve artifact com.sun.xml.bind:jaxb-impl:jar:javadoc:2.2.3-1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:30.317
+!MESSAGE Missing com.sun.xml.bind:jaxb-impl:jar:javadoc:2.2.3-1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:56:32.365
+!MESSAGE Could not download javadoc for javax.xml.stream:stax-api:1.0-2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.xml.stream:stax-api:jar:javadoc:1.0-2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing javax.xml.stream:stax-api:jar:javadoc:1.0-2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:32.365
+!MESSAGE Could not resolve artifact javax.xml.stream:stax-api:jar:javadoc:1.0-2
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:32.365
+!MESSAGE Missing javax.xml.stream:stax-api:jar:javadoc:1.0-2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:56:32.836
+!MESSAGE Could not download javadoc for javax.activation:activation:1.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.activation:activation:jar:javadoc:1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing javax.activation:activation:jar:javadoc:1.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:32.836
+!MESSAGE Could not resolve artifact javax.activation:activation:jar:javadoc:1.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:32.836
+!MESSAGE Missing javax.activation:activation:jar:javadoc:1.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:56:33.561
+!MESSAGE Could not download javadoc for org.codehaus.jackson:jackson-core-asl:1.9.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.codehaus.jackson:jackson-core-asl:jar:javadoc:1.9.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.codehaus.jackson:jackson-core-asl:jar:javadoc:1.9.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:33.562
+!MESSAGE Could not resolve artifact org.codehaus.jackson:jackson-core-asl:jar:javadoc:1.9.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:33.562
+!MESSAGE Missing org.codehaus.jackson:jackson-core-asl:jar:javadoc:1.9.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:56:35.325
+!MESSAGE Could not download javadoc for org.codehaus.jackson:jackson-mapper-asl:1.9.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.codehaus.jackson:jackson-mapper-asl:jar:javadoc:1.9.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.codehaus.jackson:jackson-mapper-asl:jar:javadoc:1.9.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:35.325
+!MESSAGE Could not resolve artifact org.codehaus.jackson:jackson-mapper-asl:jar:javadoc:1.9.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:35.325
+!MESSAGE Missing org.codehaus.jackson:jackson-mapper-asl:jar:javadoc:1.9.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:56:35.832
+!MESSAGE Could not download javadoc for org.codehaus.jackson:jackson-jaxrs:1.9.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.codehaus.jackson:jackson-jaxrs:jar:javadoc:1.9.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.codehaus.jackson:jackson-jaxrs:jar:javadoc:1.9.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:35.832
+!MESSAGE Could not resolve artifact org.codehaus.jackson:jackson-jaxrs:jar:javadoc:1.9.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:35.832
+!MESSAGE Missing org.codehaus.jackson:jackson-jaxrs:jar:javadoc:1.9.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-18 18:56:36.312
+!MESSAGE Could not download javadoc for org.codehaus.jackson:jackson-xc:1.9.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.codehaus.jackson:jackson-xc:jar:javadoc:1.9.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.codehaus.jackson:jackson-xc:jar:javadoc:1.9.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:36.313
+!MESSAGE Could not resolve artifact org.codehaus.jackson:jackson-xc:jar:javadoc:1.9.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-18 18:56:36.313
+!MESSAGE Missing org.codehaus.jackson:jackson-xc:jar:javadoc:1.9.2
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-01-18 18:57:24.796
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2019-01-18 18:57:24.796
+!MESSAGE Could not delete /home/admin1/Desktop/Servlet/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/LoginMvc/WEB-INF/lib. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2019-01-18 18:57:24.796
+!MESSAGE Could not delete /home/admin1/Desktop/Servlet/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/LoginMvc/WEB-INF. May be locked by another process.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:22:48.797
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:22:48.798
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:22:48.800
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:22:50.497
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:22:50.498
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:22:50.501
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:22:58.819
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:22:58.819
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:22:58.822
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:23:16.104
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:23:16.106
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:23:16.108
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:23:18.761
+!MESSAGE The POM for com.sun.jersey:jersey-servlet:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:23:18.762
+!MESSAGE The POM for com.sun.jersey:jersey-json:jar:1.20-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-18 19:23:18.764
+!MESSAGE The POM for com.sun.jersey:jersey-client:jar:1.20-SNAPSHOT is missing, no dependency information available
+!SESSION 2019-01-19 09:06:34.944 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.linuxtools.docker.core 4 0 2019-01-19 09:06:43.760
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.linuxtools.docker.core [1001]
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(bundle-version>=3.12.0))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.1))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.linuxtools.docker.ui 4 0 2019-01-19 09:06:43.813
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.linuxtools.docker.ui [1004]
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+       org.eclipse.linuxtools.docker.core [1001]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.docker.ui [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.ui"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.docker.ui [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.ui"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(bundle-version>=3.12.0))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.docker.ui [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.ui"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.spotify.docker.client)(bundle-version>=3.6.8))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="8.11.7.v20180731-1413"; osgi.wiring.bundle="com.spotify.docker.client"
+  com.spotify.docker.client [osgi.identity; type="osgi.bundle"; version:Version="8.11.7.v20180731-1413"; osgi.identity="com.spotify.docker.client"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.0))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.jboss.tools.openshift.cdk.server 4 0 2019-01-19 09:06:43.994
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.openshift.cdk.server [1267]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.openshift.core; bundle-version="3.1.0"
+    -> Bundle-SymbolicName: org.jboss.tools.openshift.core; bundle-version="3.5.2.v20180927-1912"; singleton:="true"
+       org.jboss.tools.openshift.core [1271]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+              org.eclipse.linuxtools.docker.core [1001]
+                No resolution report for the bundle.  Unresolved requirement: Require-Bundle: org.jboss.tools.openshift.ui; bundle-version="3.1.0"
+    -> Bundle-SymbolicName: org.jboss.tools.openshift.ui; bundle-version="3.5.2.v20180918-1304"; singleton:="true"
+       org.jboss.tools.openshift.ui [1277]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.ui; bundle-version="[4.0.0,5.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.ui; bundle-version="4.1.0.201809010400"; singleton:="true"
+              org.eclipse.linuxtools.docker.ui [1004]
+                Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="1.0.0"
+                  -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.jboss.tools.openshift.core; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.jboss.tools.openshift.core; bundle-version="3.5.2.v20180927-1912"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="[4.0.0,5.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="[4.0.0,5.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(bundle-version>=3.12.0))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.1))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.jboss.tools.openshift.core 4 0 2019-01-19 09:06:44.052
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.openshift.core [1271]
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+       org.eclipse.linuxtools.docker.core [1001]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(bundle-version>=3.12.0))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.1))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.jboss.tools.openshift.js 4 0 2019-01-19 09:06:44.104
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.openshift.js [1276]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.openshift.core; bundle-version="3.3.2"
+    -> Bundle-SymbolicName: org.jboss.tools.openshift.core; bundle-version="3.5.2.v20180927-1912"; singleton:="true"
+       org.jboss.tools.openshift.core [1271]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+              org.eclipse.linuxtools.docker.core [1001]
+                No resolution report for the bundle.  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(bundle-version>=3.12.0))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.1))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.jboss.tools.openshift.ui 4 0 2019-01-19 09:06:44.149
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.openshift.ui [1277]
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.ui; bundle-version="[4.0.0,5.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.ui; bundle-version="4.1.0.201809010400"; singleton:="true"
+       org.eclipse.linuxtools.docker.ui [1004]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="1.0.0"
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+              org.eclipse.linuxtools.docker.core [1001]
+                No resolution report for the bundle.  Unresolved requirement: Require-Bundle: org.jboss.tools.openshift.core; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.jboss.tools.openshift.core; bundle-version="3.5.2.v20180927-1912"; singleton:="true"
+       org.jboss.tools.openshift.core [1271]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="[4.0.0,5.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.jboss.tools.openshift.ui [osgi.identity; type="osgi.bundle"; version:Version="3.5.2.v20180918-1304"; osgi.identity="org.jboss.tools.openshift.ui"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.jboss.tools.openshift.ui [osgi.identity; type="osgi.bundle"; version:Version="3.5.2.v20180918-1304"; osgi.identity="org.jboss.tools.openshift.ui"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.core.runtime)
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.jboss.tools.openshift.ui [osgi.identity; type="osgi.bundle"; version:Version="3.5.2.v20180918-1304"; osgi.identity="org.jboss.tools.openshift.ui"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.spotify.docker.client)(bundle-version>=3.4.0))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="8.11.7.v20180731-1413"; osgi.wiring.bundle="com.spotify.docker.client"
+  com.spotify.docker.client [osgi.identity; type="osgi.bundle"; version:Version="8.11.7.v20180731-1413"; osgi.identity="com.spotify.docker.client"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.0))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jface 2 0 2019-01-19 09:06:57.399
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-19 09:06:57.399
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9da20f1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a52178,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-19 09:07:02.642
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.jboss.tools.discovery.core 4 0 2019-01-19 09:07:39.541
+!MESSAGE No URL set for discovery catalog. Property jboss.discovery.directory.url is missing!
+
+!ENTRY org.jboss.tools.discovery.core 4 0 2019-01-19 09:07:39.560
+!MESSAGE All attempts to discover connectors have failed
+!SUBENTRY 1 org.eclipse.mylyn.discovery.core 4 0 2019-01-19 09:07:39.560
+!MESSAGE Failed to get connectors from RemoteProxyWizardDiscoveryStrategy
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.net.URI$Parser.parse(URI.java:3106)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at org.jboss.tools.discovery.core.internal.connectors.xpl.RemoteExternalBundleDiscoveryStrategy.loadRegistry(RemoteExternalBundleDiscoveryStrategy.java:91)
+	at org.jboss.tools.discovery.core.internal.connectors.xpl.ExternalBundleDiscoveryStrategy.performDiscovery(ExternalBundleDiscoveryStrategy.java:117)
+	at org.jboss.tools.discovery.core.internal.connectors.ChainedDiscoveryStrategy.performDiscovery(ChainedDiscoveryStrategy.java:68)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery.performDiscovery(ConnectorDiscovery.java:116)
+	at org.jboss.tools.central.internal.discovery.wizards.ProxyWizardManager.loadWizards(ProxyWizardManager.java:107)
+	at org.jboss.tools.central.internal.discovery.wizards.ProxyWizardUpdateJob.run(ProxyWizardUpdateJob.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jboss.tools.ws.jaxrs.ui 4 0 2019-01-19 09:08:08.474
+!MESSAGE Failed to validate changed file MyResource.java in project P/RestJersey
+!STACK 1
+Java Model Exception: Java Model Status [MyResource {key=Lcom/bridgelabz/RestJersey/MyResource;} [in [Working copy] MyResource.java [in com.bridgelabz.RestJersey [in src/main/java [in RestJersey]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:607)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:281)
+	at org.eclipse.jdt.internal.core.SourceType.getFields(SourceType.java:285)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsResource$Builder.build(JaxrsResource.java:156)
+	at org.jboss.tools.ws.jaxrs.core.internal.metamodel.domain.JaxrsResource.update(JaxrsResource.java:273)
+	at org.jboss.tools.ws.jaxrs.ui.internal.validation.JaxrsMetamodelValidator.validate(JaxrsMetamodelValidator.java:414)
+	at org.jboss.tools.common.validation.AsYouTypeValidatorManager.validate(AsYouTypeValidatorManager.java:186)
+	at org.jboss.tools.common.validation.AsYouTypeValidatorManager.validateString(AsYouTypeValidatorManager.java:208)
+	at org.jboss.tools.common.validation.AsYouTypeValidatorManager.validateString(AsYouTypeValidatorManager.java:203)
+	at org.jboss.tools.common.validation.java.JavaDirtyRegionProcessor.endProcessing(JavaDirtyRegionProcessor.java:498)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:698)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-01-19 09:08:08.475
+!MESSAGE MyResource {key=Lcom/bridgelabz/RestJersey/MyResource;} [in [Working copy] MyResource.java [in com.bridgelabz.RestJersey [in src/main/java [in RestJersey]]]] does not exist
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-01-19 09:39:57.940
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.2.5-20110915223420/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:398)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor115.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-19 09:39:57.950
+!MESSAGE No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.2.5-20110915223420/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-01-19 09:40:53.945
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.3.2-20120210195245/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:398)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor115.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor115.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-19 09:40:53.945
+!MESSAGE No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.3.2-20120210195245/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-01-19 09:41:29.808
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/usssdk/drops/nightly/N851.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:398)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor115.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor115.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-19 09:41:29.808
+!MESSAGE No repository found at http://download.eclipse.org/usssdk/drops/nightly/N851.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-01-19 09:48:31.054
+!MESSAGE Could not download javadoc for asm:asm:3.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact asm:asm:jar:javadoc:3.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing asm:asm:jar:javadoc:3.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-01-19 09:48:31.055
+!MESSAGE Could not resolve artifact asm:asm:jar:javadoc:3.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-01-19 09:48:31.055
+!MESSAGE Missing asm:asm:jar:javadoc:3.1
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-19 10:03:58.010
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2019-01-21 09:14:53.842 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.linuxtools.docker.core 4 0 2019-01-21 09:14:58.019
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.linuxtools.docker.core [1001]
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(bundle-version>=3.12.0))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.1))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.linuxtools.docker.ui 4 0 2019-01-21 09:14:58.064
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.linuxtools.docker.ui [1004]
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+       org.eclipse.linuxtools.docker.core [1001]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.docker.ui [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.ui"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.docker.ui [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.ui"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(bundle-version>=3.12.0))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.docker.ui [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.ui"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.spotify.docker.client)(bundle-version>=3.6.8))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="8.11.7.v20180731-1413"; osgi.wiring.bundle="com.spotify.docker.client"
+  com.spotify.docker.client [osgi.identity; type="osgi.bundle"; version:Version="8.11.7.v20180731-1413"; osgi.identity="com.spotify.docker.client"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.0))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.jboss.tools.openshift.cdk.server 4 0 2019-01-21 09:14:58.228
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.openshift.cdk.server [1267]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.openshift.core; bundle-version="3.1.0"
+    -> Bundle-SymbolicName: org.jboss.tools.openshift.core; bundle-version="3.5.2.v20180927-1912"; singleton:="true"
+       org.jboss.tools.openshift.core [1271]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+              org.eclipse.linuxtools.docker.core [1001]
+                No resolution report for the bundle.  Unresolved requirement: Require-Bundle: org.jboss.tools.openshift.ui; bundle-version="3.1.0"
+    -> Bundle-SymbolicName: org.jboss.tools.openshift.ui; bundle-version="3.5.2.v20180918-1304"; singleton:="true"
+       org.jboss.tools.openshift.ui [1277]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.ui; bundle-version="[4.0.0,5.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.ui; bundle-version="4.1.0.201809010400"; singleton:="true"
+              org.eclipse.linuxtools.docker.ui [1004]
+                Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="1.0.0"
+                  -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="[4.0.0,5.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.jboss.tools.openshift.core; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.jboss.tools.openshift.core; bundle-version="3.5.2.v20180927-1912"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="[4.0.0,5.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(bundle-version>=3.12.0))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.1))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.jboss.tools.openshift.core 4 0 2019-01-21 09:14:58.298
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.openshift.core [1271]
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+       org.eclipse.linuxtools.docker.core [1001]
+         No resolution report for the bundle.  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(bundle-version>=3.12.0))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.1))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.jboss.tools.openshift.js 4 0 2019-01-21 09:14:58.363
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.openshift.js [1276]
+  Unresolved requirement: Require-Bundle: org.jboss.tools.openshift.core; bundle-version="3.3.2"
+    -> Bundle-SymbolicName: org.jboss.tools.openshift.core; bundle-version="3.5.2.v20180927-1912"; singleton:="true"
+       org.jboss.tools.openshift.core [1271]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+              org.eclipse.linuxtools.docker.core [1001]
+                No resolution report for the bundle.  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=org.eclipse.core.runtime)(bundle-version>=3.12.0))
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.eclipse.linuxtools.docker.core [osgi.identity; type="osgi.bundle"; version:Version="4.1.0.201809010400"; osgi.identity="org.eclipse.linuxtools.docker.core"; singleton:="true"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.1))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.jboss.tools.openshift.ui 4 0 2019-01-21 09:14:58.406
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jboss.tools.openshift.ui [1277]
+  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.ui; bundle-version="[4.0.0,5.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.ui; bundle-version="4.1.0.201809010400"; singleton:="true"
+       org.eclipse.linuxtools.docker.ui [1004]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="1.0.0"
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+              org.eclipse.linuxtools.docker.core [1001]
+                No resolution report for the bundle.  Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core; bundle-version="[4.0.0,5.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.jboss.tools.openshift.core; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.jboss.tools.openshift.core; bundle-version="3.5.2.v20180927-1912"; singleton:="true"
+       org.jboss.tools.openshift.core [1271]
+         Unresolved requirement: Require-Bundle: org.eclipse.linuxtools.docker.core
+           -> Bundle-SymbolicName: org.eclipse.linuxtools.docker.core; bundle-version="4.1.0.201809010400"; singleton:="true"
+  Bundle was not resolved because of a uses constraint violation.
+  org.apache.felix.resolver.reason.ReasonException: Uses constraint violation. Unable to resolve resource org.jboss.tools.openshift.ui [osgi.identity; type="osgi.bundle"; version:Version="3.5.2.v20180918-1304"; osgi.identity="org.jboss.tools.openshift.ui"; singleton:="true"] because it is exposed to package 'javax.xml.bind.annotation' from resources org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"] and javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"] via two dependency chains.
+
+Chain 1:
+  org.jboss.tools.openshift.ui [osgi.identity; type="osgi.bundle"; version:Version="3.5.2.v20180918-1304"; osgi.identity="org.jboss.tools.openshift.ui"; singleton:="true"]
+    require: (osgi.wiring.bundle=org.eclipse.core.runtime)
+     |
+    provide: osgi.wiring.bundle: org.eclipse.core.runtime
+  org.eclipse.osgi [osgi.identity; type="osgi.bundle"; version:Version="3.13.200.v20181130-2106"; osgi.identity="org.eclipse.osgi"; singleton:="true"]
+
+Chain 2:
+  org.jboss.tools.openshift.ui [osgi.identity; type="osgi.bundle"; version:Version="3.5.2.v20180918-1304"; osgi.identity="org.jboss.tools.openshift.ui"; singleton:="true"]
+    require: (&(osgi.wiring.bundle=com.spotify.docker.client)(bundle-version>=3.4.0))
+     |
+    provide: osgi.wiring.bundle; bundle-version:Version="8.11.7.v20180731-1413"; osgi.wiring.bundle="com.spotify.docker.client"
+  com.spotify.docker.client [osgi.identity; type="osgi.bundle"; version:Version="8.11.7.v20180731-1413"; osgi.identity="com.spotify.docker.client"]
+    import: (&(osgi.wiring.package=javax.ws.rs)(version>=2.0.0))
+     |
+    export: osgi.wiring.package=javax.ws.rs; uses:=javax.xml.bind.annotation
+  javax.ws.rs [osgi.identity; type="osgi.bundle"; version:Version="2.0.1.v201504171603"; osgi.identity="javax.ws.rs"]
+    import: (osgi.wiring.package=javax.xml.bind.annotation)
+     |
+    export: osgi.wiring.package: javax.xml.bind.annotation
+  javax.xml.bind [osgi.identity; type="osgi.bundle"; version:Version="2.2.0.v201105210648"; osgi.identity="javax.xml.bind"]
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jface 2 0 2019-01-21 09:15:18.188
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-01-21 09:15:18.188
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e92f150,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4268c16,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-21 09:15:30.021
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.jboss.tools.discovery.core 4 0 2019-01-21 09:16:13.357
+!MESSAGE No URL set for discovery catalog. Property jboss.discovery.directory.url is missing!
+
+!ENTRY org.jboss.tools.discovery.core 4 0 2019-01-21 09:16:13.364
+!MESSAGE All attempts to discover connectors have failed
+!SUBENTRY 1 org.eclipse.mylyn.discovery.core 4 0 2019-01-21 09:16:13.364
+!MESSAGE Failed to get connectors from RemoteProxyWizardDiscoveryStrategy
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.net.URI$Parser.parse(URI.java:3106)
+	at java.base/java.net.URI.<init>(URI.java:600)
+	at org.jboss.tools.discovery.core.internal.connectors.xpl.RemoteExternalBundleDiscoveryStrategy.loadRegistry(RemoteExternalBundleDiscoveryStrategy.java:91)
+	at org.jboss.tools.discovery.core.internal.connectors.xpl.ExternalBundleDiscoveryStrategy.performDiscovery(ExternalBundleDiscoveryStrategy.java:117)
+	at org.jboss.tools.discovery.core.internal.connectors.ChainedDiscoveryStrategy.performDiscovery(ChainedDiscoveryStrategy.java:68)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery.performDiscovery(ConnectorDiscovery.java:116)
+	at org.jboss.tools.central.internal.discovery.wizards.ProxyWizardManager.loadWizards(ProxyWizardManager.java:107)
+	at org.jboss.tools.central.internal.discovery.wizards.ProxyWizardUpdateJob.run(ProxyWizardUpdateJob.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-01-21 10:05:02.896
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.2.5-20110915223420/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:398)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-21 10:05:02.908
+!MESSAGE No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.2.5-20110915223420/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-01-21 10:05:29.356
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.3.2-20120210195245/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:398)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at jdk.internal.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-01-21 10:05:29.356
+!MESSAGE No repository found at http://download.jboss.org/jbosstools/updates/requirements/webtools/3.3.2-20120210195245/.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-01-21 10:08:48.026
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

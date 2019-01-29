@@ -1,5 +1,8 @@
 package com.bridgelabz.SpringIOC;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Tyre
 {
 	private String brand;
@@ -20,6 +23,7 @@ public class Tyre
 
 	@Override
 	public String toString() {
-		return "Tyre [brand=" + brand + "]";
+//		return "Tyre [brand=" + brand + "]";
+		return "and tyre is working";
 	}
 }

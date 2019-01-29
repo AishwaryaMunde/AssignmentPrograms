@@ -12,14 +12,14 @@ import com.bridgelabz.model.Userdata;
 
 public class UserDatabseImpl implements IUserDatabse
 {
+	Configuration config = new Configuration().configure().addAnnotatedClass(Userdata.class);
+	ServiceRegistry registry = new ServiceRegistryBuilder().applySettings(config.getProperties()).buildServiceRegistry(); 
+	SessionFactory factory = config.buildSessionFactory(registry);
+	Session session = factory.openSession(); //open session method give the obj of session
+	Transaction transaction = session.beginTransaction();
 	public boolean userVerify(String userName , String Password)
 	{
-		boolean userFound=false;
-		Configuration config = new Configuration().configure().addAnnotatedClass(Userdata.class);
-    	ServiceRegistry registry = new ServiceRegistryBuilder().applySettings(config.getProperties()).buildServiceRegistry(); 
-    	SessionFactory factory = config.buildSessionFactory(registry);
-    	Session session = factory.openSession(); //open session method give the obj of session
-    	Transaction transaction = session.beginTransaction();
+		boolean userFound=false;		
     	Query query = session.createQuery("from Userdata where UserName=:uname and Password=:password");
     	query.setParameter("uname",userName);
     	query.setParameter("password",Password);
@@ -30,16 +30,37 @@ public class UserDatabseImpl implements IUserDatabse
     		userFound = true;
     	}
     	transaction.commit();
+    	session.close();
+    	factory.close();
 		return userFound;
 	}
 	public void save(Userdata userData)
 	{
-		Configuration config = new Configuration().configure().addAnnotatedClass(Userdata.class);
-    	ServiceRegistry registry = new ServiceRegistryBuilder().applySettings(config.getProperties()).buildServiceRegistry(); 
-    	SessionFactory factory = config.buildSessionFactory(registry);
-    	Session session = factory.openSession(); //open session method give the obj of session
-    	Transaction transaction = session.beginTransaction();
     	session.save(userData);
     	transaction.commit();
+    	session.close();
+    	factory.close();
+	}
+	public boolean getPassword(String email , String password)
+	{
+		boolean isEmailIdValid = false; 
+		System.out.println("in dao");
+		Query query = session.createQuery("select UserName,Password from Userdata where EmailId=:emailid");
+		query.setParameter("emailid",email);
+		List<Object[]> list = (List<Object[]>) query.list();
+		for(Object[] obj : list)
+		{
+			System.out.println(obj[0]+" : "+obj[1]);
+			isEmailIdValid = true;
+		}
+		Query query1 = session.createQuery("update Userdata set Password=:password where EmailId=:emailid");
+		query1.setParameter("emailid",email);
+		query1.setParameter("password",password);
+		int count = query1.executeUpdate();
+		System.out.println(count+" record updated");
+    	transaction.commit();
+    	session.close();
+    	factory.close();
+    	return isEmailIdValid;
 	}
 }

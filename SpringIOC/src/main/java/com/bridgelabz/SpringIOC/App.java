@@ -18,14 +18,17 @@ public class App
     public static void main( String[] args )
     {
     	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+    	Car car = (Car)context.getBean("car");
+    	car.drive();
+    	
 //      Vehicle obj = (Vehicle)context.getBean("car");
 //      obj.drive();
 //    	Tyre tyre = (Tyre)context.getBean("tyre");
 //    	System.out.println(tyre);
     	
-    	Laptop laptop = (Laptop)context.getBean("laptop");
-    	laptop.setLaptopId(101);
-    	laptop.setLaptopName("Dell");
+//    	Laptop laptop = (Laptop)context.getBean("laptop");
+//    	laptop.setLaptopId(101);
+//    	laptop.setLaptopName("Dell");
     	
 //    	Laptop laptop1 = (Laptop)context.getBean("laptop");
 //    	laptop1.setLaptopId(102);
@@ -36,14 +39,14 @@ public class App
 //    	laptop3.setLaptopName("Lenovo");   	
     	
     	
-    	EmbededAnotation embed = new EmbededAnotation();
-    	embed.setFirstname("Akhil");
-    	embed.setMiddlename("Nagarjun");
-    	embed.setLastname("Akkineni");
-    	Student pojo = (Student)context.getBean("student");    	
-    	pojo.setName(embed);
-    	pojo.setColor("Sky Blue");
-    	pojo.setId(1);
+//    	EmbededAnotation embed = new EmbededAnotation();
+//    	embed.setFirstname("Akhil");
+//    	embed.setMiddlename("Nagarjun");
+//    	embed.setLastname("Akkineni");
+//    	Student pojo = (Student)context.getBean("student");    	
+//    	pojo.setName(embed);
+//    	pojo.setColor("Sky Blue");
+//    	pojo.setId(1);
     	
 //    	EmbededAnotation embed1 = new EmbededAnotation();
 //    	embed1.setFirstname("Aishwarya");
@@ -65,18 +68,18 @@ public class App
     	//pojo.setLaptop(list);
     	
     	//pojo.setLaptop(laptop);  //for one to one mapping
-    	pojo.getLaptop().add(laptop);   //getLaptop give the array list of laptop //for one to many mapping
-    	
-    	Configuration config = new Configuration().configure().addAnnotatedClass(Student.class).addAnnotatedClass(Laptop.class);
-    	ServiceRegistry registry = new ServiceRegistryBuilder().applySettings(config.getProperties()).buildServiceRegistry(); 
-    	SessionFactory factory = config.buildSessionFactory(registry);
-    	Session session = factory.openSession(); //open session method give the obj of session
-    	Transaction transaction = session.beginTransaction();
-    	session.save(pojo);    //to insert values in database
-    	session.save(laptop);
+//    	pojo.getLaptop().add(laptop);   //getLaptop give the array list of laptop //for one to many mapping
+//    	
+//    	Configuration config = new Configuration().configure().addAnnotatedClass(Student.class).addAnnotatedClass(Laptop.class);
+//    	ServiceRegistry registry = new ServiceRegistryBuilder().applySettings(config.getProperties()).buildServiceRegistry(); 
+//    	SessionFactory factory = config.buildSessionFactory(registry);
+//    	Session session = factory.openSession(); //open session method give the obj of session
+//    	Transaction transaction = session.beginTransaction();
+//    	session.save(pojo);    //to insert values in database
+//    	session.save(laptop);
     	//session.save(pojo1);
     	
-    	transaction.commit();
+//    	transaction.commit();
     	//pojo = (SpringPojo) session.get(SpringPojo.class,10); //10 is id ie primary key values whose data you wants to fetch
     											//load method is also their to fetch data
     	//System.out.println(pojo);	//fetch values from database

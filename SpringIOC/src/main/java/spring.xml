@@ -10,10 +10,10 @@
     
   <context:component-scan base-package="com.bridgelabz.SpringIOC"></context:component-scan> 
 	<!-- <bean id="vehicle" class="com.bridgelabz.SpringIOC.Car"></bean> -->
-	<bean id="student" class="com.bridgelabz.SpringIOC.Student"></bean>
-	<bean id="laptop" class="com.bridgelabz.SpringIOC.Laptop"></bean>
-	<!-- <bean id="tyre" class="com.bridgelabz.SpringIOC.Tyre"> -->
-		<!--  <property name="brand" value="MRF"></property> --> 
-		<!-- <constructor-arg value="Ceat"></constructor-arg>  -->
+	<!-- <bean id="student" class="com.bridgelabz.SpringIOC.Student"></bean>
+	<bean id="laptop" class="com.bridgelabz.SpringIOC.Laptop"></bean> -->
+	<!-- <bean id="tyre" class="com.bridgelabz.SpringIOC.Tyre"> 
+		<property name="brand" value="MRF"></property> -->
+		<!-- <constructor-arg value="Ceat"></constructor-arg> -->
 	<!-- </bean> -->
 </beans>

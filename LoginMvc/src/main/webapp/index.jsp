@@ -14,11 +14,12 @@
 		<tr><td><h2 style="color:Purple;">Username : <input type ="text" name = "userName" style = " width: 15em;  height: 2em;"></h2></td></tr>
 		<tr><td><h2 style="color:Purple;">Password : <input type = "password" name = "userPass" style = " width: 15em;  height: 2em;"></h2></td></tr>
 		<tr><td><input type="submit" value = "Login" style = " width: 15em;  height: 2em;"></td></tr>
+		
 	</table>
 </form>
-
 <form action="Register.jsp">
 	<input type="submit" value="Register" style = " width: 15em;  height: 2em;" >	
 </form>
+<a href="forgetPasswd.jsp"> Forget Password</a>
 </body>
 </html>

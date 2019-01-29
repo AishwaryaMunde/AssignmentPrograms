@@ -15,7 +15,8 @@ public class MyResource {
      */
     @GET 
     @Produces("text/plain")
-    public String getIt() {
+    public String getIt() 
+    {
         return "Hi there!";
     }
 }

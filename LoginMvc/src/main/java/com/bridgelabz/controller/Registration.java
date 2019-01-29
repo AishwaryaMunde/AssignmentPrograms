@@ -11,6 +11,7 @@ import com.bridgelabz.dao.UserDatabseImpl;
 import com.bridgelabz.model.Userdata;
 import com.bridgelabz.utility.Encryption;
 //import com.bridgelabz.utility.Encryption;
+import com.bridgelabz.utility.SendEmail;
 
 @Controller
 public class Registration 
@@ -26,6 +27,7 @@ public class Registration
 	public ModelAndView registration(HttpServletRequest request , HttpServletResponse response) throws ServletException, IOException
 	{	
 		Userdata userData = new Userdata();		//initialize pojo class
+		
 		UserDatabseImpl database = new UserDatabseImpl();
 		ModelAndView view = new ModelAndView();
 		//fetching data from web
@@ -42,9 +44,8 @@ public class Registration
 		userData.setUserName(userName);
 		//save the password in database in encrypted format
 		userData.setPassword(Encryption.getMd5(password));
-		database.save(userData);		//this method store the data in database
-		System.out.println("Registered successfully");
-		view.setViewName("index.jsp");
+		database.save(userData);	//this method store the data in database		
+		view.setViewName("verify.jsp");
 		return view;		
 	}
 }

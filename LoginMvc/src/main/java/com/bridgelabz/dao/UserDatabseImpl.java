@@ -9,6 +9,7 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
 import com.bridgelabz.model.Userdata;
+import com.bridgelabz.utility.SendEmail;
 
 public class UserDatabseImpl implements IUserDatabse
 {
@@ -36,7 +37,10 @@ public class UserDatabseImpl implements IUserDatabse
 	}
 	public void save(Userdata userData)
 	{
+		SendEmail.emailSend();
+		System.out.println("User verified");
     	session.save(userData);
+    	System.out.println("Registered Suceessfully");
     	transaction.commit();
     	session.close();
     	factory.close();
